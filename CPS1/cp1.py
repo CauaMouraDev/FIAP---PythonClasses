@@ -1,13 +1,24 @@
 import os
 os.system("cls")
+import sys
+
+
 
 sal = float(input("Entra com seu salário: "))
+
+if sal <= 0:
+    print("ERRO ! Formato inválido, digite um valor positivo!")
+    sys.exit()
+
+
 fal = int(input("Seus dias de faltas: "))
 min = 1302.00
-print( "SALÁRIO:",sal)
 
-if sal < 0:
-    exit()
+
+
+print( "SALÁRIO:",sal)
+print("FALTAS:",fal)
+
 
 if sal >= 0 and sal <= (min*2):
     sal = sal * 1.0645
