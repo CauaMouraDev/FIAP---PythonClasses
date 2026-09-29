@@ -1,0 +1,22 @@
+import os
+os.system("cls")
+
+dias = input("Que dia é hoje ?: ")
+#PARA OS CASOS APENAS DE 1 A 4!
+
+match dias:
+     case "1":
+         print("Hoje é domingo !")
+     case "2":
+         print("Hoje é segunda-feira!")
+     case "3":
+         print("Hoje é terça-feira !")
+     case "4":
+         print("Digitou hoje é quarta-feira !")
+     case "5":
+         print("Hoje é quinta-feira!")
+     case "6":
+         print("Hoje é sexta-feira! \nChega de canseira\nNada de tristeza \nPega uma cerveja\nPõe na minha mesa")
+     case "7":
+         print("Hoje é Sabádo")
+

@@ -16,21 +16,21 @@ min = 1302.00
 
 
 
-print( "SALÁRIO:",sal)
-print("FALTAS:",fal)
+print("SALÁRIO............:",sal)
+print("FALTAS.............:",fal)
 
 
 if sal >= 0 and sal <= (min*2):
     sal = sal * 1.0645
-    print("Seu salário será reajustado para --->", sal)
+    print("REAJUSTE...........:", sal)
 
 elif sal > (min*2) and sal <= (min*5):
     sal = sal * 1.0455
-    print("Seu reajuste será para ---> ",sal)
+    print("REAJUSTE...........: ",sal)
 
 elif sal > (min*5) and sal <= (min*10):
     sal = sal * 1.0289
-    print("Seu reajuste será para --->", sal)
+    print("REAJUSTE...........:", sal)
 
 elif sal > (min*10):
     print("Não terá reajuste")
@@ -38,14 +38,14 @@ elif sal > (min*10):
 
 if fal == 0:
     sal = sal + min
-    print(" COM BÔNUS:",sal)
+    print("COM BÔNUS.........:",sal)
 
 elif fal == 1:
     sal = sal + 500
-    print(" COM BÔNUS:",sal)
+    print("COM BÔNUS..........:",sal)
 
 elif fal > 1:
-    print("Sem bônus")
+    print("Sem bônus    ")
 
 
 
